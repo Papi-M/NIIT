@@ -1,0 +1,60 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+@import url('https://fonts.cdnfonts.com/css/futura-lt');
+:root{
+    /* Colors */
+    --main-color:rgb(87, 1, 148);
+    --background-color: rgb(146, 2, 146);
+    --white: white;
+    --light-bg:#e7e4e4;
+    --light-color: #dfdddd;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --border:.1rem solid rgba(0,0,0,.2);    
+
+    /* Fonts */
+    --futurapt: 'Futura PT', sans-serif;
+    --futuralt: 'Futura LT', sans-serif;
+}
+*{
+    font-family: var(--futurapt);                                                                                                
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+header{
+    background: linear-gradient(to right, var(--main-color), var(--background-color));;
+    height: 550px;
+    border-radius: 0;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.header .niit-header .logo h1{
+    color: var(--white);
+    font-size: 2rem;
+}
+.header .niit-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 auto; 
+    max-width: 1200px;
+}
+  
+.header .niit-header .navbar{
+    display: flex;
+    align-items: center;
+}
+  
+.header .niit-header .navbar a{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    color: var(--white);
+}
+  
+.header .niit-header .navbar a i{
+    margin-right: 0.5rem;
+}
